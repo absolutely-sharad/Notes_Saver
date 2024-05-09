@@ -19,8 +19,46 @@ The project consists of two main files:
 - **handleSave**: This function is called when the "Save Notes" button is clicked. It creates a new instance of `jsPDF`, adds the notes content to the PDF, and saves the PDF file.
 
 #### Usage
-<App />
-<Notes />
+<App/>
+```
+import Notes from './NotesSaver';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <h1> NOTES SAVER </h1>
+      <Notes/>
+    </div>
+  );
+}
+
+export default App;
+```
+<Notes/>
+```
+import React, { useState } from 'react';
+import jsPDF from 'jspdf';
+import styles from './NotesSaver.module.css';
+
+export default function Notes() {
+    const [notes, setNotes] = useState('');
+    function handleChange(e) {
+        setNotes(e.target.value);
+    }
+    function handleSave() {
+        const doc = new jsPDF();
+        doc.text(20, 20, `Notes: ${notes}`);
+        doc.save('notes.pdf');
+    }
+    return (
+        <div className={styles.main}>
+            <textarea name="data" placeholder="Add your notes here ....." onChange={handleChange}></textarea>
+            <button onClick={handleSave}>Save Notes</button>
+        </div>
+    );
+}
+```
 
 #### Getting Started
 - To run the project locally:
