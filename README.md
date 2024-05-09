@@ -19,8 +19,9 @@ The project consists of two main files:
 - **handleSave**: This function is called when the "Save Notes" button is clicked. It creates a new instance of `jsPDF`, adds the notes content to the PDF, and saves the PDF file.
 
 #### Usage
-<App/>
+
 ```jsx
+<App/>
 import Notes from './NotesSaver';
 import './App.css';
 
@@ -35,8 +36,11 @@ function App() {
 
 export default App;
 ```
-<Notes/>
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 ```jsx
+<Notes/>
 import React, { useState } from 'react';
 import jsPDF from 'jspdf';
 import styles from './NotesSaver.module.css';
