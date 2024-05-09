@@ -1,4 +1,4 @@
-# Notes Saver React Project
+# Notes Saver
 
 This repository contains a simple React project for saving notes as a PDF file.
 
