@@ -20,7 +20,7 @@ The project consists of two main files:
 
 #### Usage
 <App/>
-```
+```jsx
 import Notes from './NotesSaver';
 import './App.css';
 
@@ -36,7 +36,7 @@ function App() {
 export default App;
 ```
 <Notes/>
-```
+```jsx
 import React, { useState } from 'react';
 import jsPDF from 'jspdf';
 import styles from './NotesSaver.module.css';
