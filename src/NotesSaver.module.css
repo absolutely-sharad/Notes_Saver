@@ -1,0 +1,16 @@
+textarea{
+    height: 60vh;
+    width:90vw;
+    margin: 2vh;
+    margin-left: 5vw;
+    font-size: x-large;
+    background-color: aliceblue;
+}
+button{
+    margin-left: 87vw;
+    font-size: large;
+    border-radius: 4px;
+    background-color: rgb(16, 183, 149);
+    color: black;
+    cursor: pointer;
+}
