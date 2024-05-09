@@ -19,7 +19,7 @@ The project consists of two main files:
 - **handleSave**: This function is called when the "Save Notes" button is clicked. It creates a new instance of `jsPDF`, adds the notes content to the PDF, and saves the PDF file.
 
 #### Usage
-```jsx
+<App />
 <Notes />
 
 #### Getting Started
