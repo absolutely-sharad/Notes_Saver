@@ -64,6 +64,7 @@ export default function Notes() {
 }
 ```
 
+
 #### Getting Started
 - To run the project locally:
 
