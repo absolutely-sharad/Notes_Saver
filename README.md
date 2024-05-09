@@ -25,15 +25,15 @@ The project consists of two main files:
 #### Getting Started
 - To run the project locally:
 
-Clone this repository to your local machine.
+#### Clone this repository to your local machine.
 - Install dependencies using npm install.
 - Start the development server using npm start.
 - Access the application in your browser at http://localhost:3000.
 
-####Technologies Used
+#### Technologies Used
 - React
 - jsPDF
 - CSS Modules
 
-###Author
+### Author
 [Sharad Singh Kushwaha]
